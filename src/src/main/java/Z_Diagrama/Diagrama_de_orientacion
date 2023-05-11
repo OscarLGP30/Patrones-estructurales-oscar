@@ -1,0 +1,27 @@
++----------------+              +------------------------+
+|   Elemento     |<>-----------|       Kit              |
++----------------+              +------------------------+
+| # codigo: int  |              | # elementos: List<Elemento> |
+| # precio: double |            |------------------------|
+|                |              | # calcularPrecio()      |
+| + getPrecio(): double |       | + addElemento(): void   |
+| + imprimir(): void   |       | + removeElemento(): void|
++----------------+              +------------------------+
+        ^                                    ^
+        |                                    |
+        |                                    |
++----------------+              +------------------------+
+| ElementoSimple |              | FabricaElementos        |
++----------------+              +------------------------+
+|                |              | + crearElementoSimple(): ElementoSimple |
+|                |              | + crearKit(): Kit        |
++----------------+              +------------------------+
+                                        ^
+                                        |
+                                        |
+                              +------------------------+
+                              | FabricaElementosMuebles |
+                              +------------------------+
+                              | + crearElementoSimple(): ElementoSimple |
+                              | + crearKit(): Kit        |
+                              +------------------------+
