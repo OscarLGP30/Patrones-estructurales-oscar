@@ -15,7 +15,7 @@ public class Main {
         ElementoSimple silla2 = (ElementoSimple) fabrica.crearElementoSimple(100, 60);
         ElementoSimple mesa1 = (ElementoSimple) fabrica.crearElementoSimple(200, 70);
         ElementoSimple mesa2 = (ElementoSimple) fabrica.crearElementoSimple(200, 100);
-        ElementoSimple lampara1 = (ElementoSimple) fabrica.crearElementoSimple(50, 20);
+        ElementoSimple lampara1 = (ElementoSimple) fabrica.crearElementoSimple(300, 20);
 
         // Crear 2 kits
         Kit kit1 = new Kit(10);
